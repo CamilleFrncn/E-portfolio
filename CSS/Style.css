@@ -1,0 +1,271 @@
+body {
+    font-family: 'barlow', sans-serif;
+	background-color: #f4f4f4;
+	margin: 30px;
+ }
+
+
+/********* Stylisation de la barre de navigation ********/
+
+.navbar .nav-link {
+    color: #AE6CA0; 
+}
+
+.navbar .nav-link:hover {
+    color: #D063A6;
+}
+
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+	background-color: #f8f9fa;
+	/* border:1px solid red; */
+}
+
+.navbar .dropdown-menu .dropdown-item:hover {
+    background-color: lightgrey; /* Couleur de fond au survol */
+    color: white;
+}
+
+
+/********* Stylisation titre principal de la page ********/
+
+.container {
+    margin-top: 100px;
+	background-color: #4D4D89;
+	color: white;
+	border-radius :25px;
+	padding: 10px 5px;
+}
+
+/********* Stylisation titres des parties et sous titres ********/
+
+.sous-titre {
+	font-size : 20px;
+	color : #D063A6;
+	padding-top : 20px;
+}
+
+#scrollspyHeading1, #scrollspyHeading2, #scrollspyHeading3, #scrollspyHeading4{
+	color : #AE6CA0;
+	font-size : 24px;
+	margin-bottom: 10px;
+	margin-top: 25px;
+}
+
+/********* Stylisation Présentation générale ********/
+
+.container-presentation{
+	/* border:1px solid red; */
+	display: flex;
+    align-items: center;
+	gap:20px; /*Ecart entre photo et texte */
+	margin-top: 10px;
+	padding: 15px 0px;
+}
+.texte-presentation {
+    width: 1000px;
+    text-align: justify;
+	font-size: 14px; 
+    line-height: 1.5;
+}
+
+.photo-moi {
+	width:150px;
+	height: auto;
+}
+
+.photo-moi img {
+    width: 100%;
+    height: auto;
+}
+
+/********* Stylisation Parcours scolaire ********/
+
+.texte-sco {
+	font-size : 14px;
+	margin-bottom : 15px;
+	padding-top: 5px;
+	line-height: 1.5;
+}
+
+
+/********* Stylisation Passions ********/
+
+.carousel-inner img {
+    width: 50px; 
+    height: auto; 
+    object-fit: cover;
+    border-radius: 25px; 
+	/* border:1px solid red; */
+}
+
+#carouselExample {
+    width: 20%; 
+    float: left;
+	margin-right: 20px;
+	/* border:1px solid red */
+}
+
+#carouselComment {
+  width: 50%; 
+  display: flex;
+  align-items: center;
+  /* border:1px solid red; */
+  margin-right: 25px;
+}
+
+#carousel-texte {
+    flex-grow: 1;
+    text-align: justify; 
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+/********* Stylisation Compétences perso ********/
+
+.compet-perso-liste, .compet-perso-texte {
+	font-size:14px;
+	text-align : justify
+}
+
+/********* Stylisation Compétences stats et info ********/
+/*Blocs*/
+
+.texte-compet {
+	font-size:14px;
+	/* border:1px solid red; */
+}
+
+.container-stats {
+    display: flex;
+	align-items: center;
+    justify-content: center; 
+    gap: 100px; 
+    margin-top: 30px; 
+}
+
+.screen {
+    width: 350px; 
+    background-color: white; 
+    padding: 15px; 
+    text-align: center; 
+    border: 1px solid lightgrey; 
+	border-radius: 25px;
+	font-size : 14px;
+}
+
+.titre-compet {
+	background-color: #4D4D89;
+	color: white;
+	font-size:20px;
+	border-radius: 25px;
+	text-align: center;
+	padding: 5px 0px;
+}
+
+/* Logos */
+.logo-row {
+    display: flex;
+    justify-content: center; 
+    gap: 30px;
+    width: 100%; 
+    margin-top: 20px; 
+    flex-wrap: wrap; 
+	/* border:1px solid red; */
+}
+
+.logo-row figure {
+    text-align: center; 
+    width: 100px; 
+	/* border:1px solid red; */
+}
+
+.logo-row img {
+    width: 60px; 
+    height: 60px; 
+    object-fit: contain;
+	/* border:1px solid red; */
+}
+
+.logo-row figcaption {
+    font-size: 14px;
+    margin-top: 5px; 
+}
+
+
+/********* Stylisation Projets universitaires ********/
+
+.card-group {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    margin-top: 20px;
+}
+
+.card {
+    width: 30%; 
+    border-radius: 15px;
+}
+
+.card .carousel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    overflow: hidden;
+}
+
+
+.card .carousel-inner img {
+    max-width: 70%;
+    max-height: 70%;
+    object-fit: contain; 
+}
+
+.card-body {
+    padding: 15px;
+    text-align: justify;
+	font-size: 14px;
+}
+
+.card-title {
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 10px;
+	background-color:#4D4D89;
+	color: white;
+	border-radius:25px;
+	padding: 5px 0px;
+}
+
+
+/********* Stylisation Alternance ********/
+
+.alternance-container {
+    display: flex;
+    align-items: center; 
+    margin-top: 5px; 
+	gap:15px;
+}
+
+.alternance-image {
+    flex-shrink: 0; 
+    width: 25%; 
+}
+
+.alternance-image img {
+    width: 100%; 
+    height: auto;
+}
+
+.alternance-text {
+    text-align: justify;
+	font-size: 14px; 
+    line-height: 1.5;
+	flex-grow:1;
+}
+
+.Linkedin {
+    text-decoration: none; /* Enlève le soulignement */
+    color: inherit; /* Utilise la couleur du texte environnant */
+}

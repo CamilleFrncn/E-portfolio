@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Mon E-Portfolio</title>
+		<link rel="stylesheet" type="text/css" href="css_bootstrap/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="CSS/Style.css"> 
+		<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300;400;600&display=swap" rel="stylesheet">
+	</head>
+	<body>
+	
+	<!-- Barre de navigation -->
+		<nav id="navbar-example2" class="navbar bg-body-tertiary px-3 mb-3 fixed-top">
+		<div class="container-fluid">
+		<a class="navbar-brand" href="#">E-Portfolio CF</a>
+			<ul class="nav nav-pills">
+				<li class="nav-item">
+					<a class="nav-link" href="#accueil">Accueil</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#scrollspyHeading1" role="button" aria-expanded="false">Présentation générale</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#scrollspyHeading1_1">Parcours scolaire</a></li>
+							<li><a class="dropdown-item" href="#scrollspyHeading1_2">Passions, centres d'intérêt</a></li>
+						</ul>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Compétences</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#scrollspyHeading2_1">Personnelles</a></li>
+							<li><a class="dropdown-item" href="#scrollspyHeading2_2">Statistiques et Informatique</a></li>
+						</ul>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Réalisations</a>
+						<ul class="dropdown-menu">
+							<li><a class="dropdown-item" href="#scrollspyHeading3_1">Projets universiatires</a></li>
+							<li><a class="dropdown-item" href="#scrollspyHeading3_2">Alternance</a></li>
+						</ul>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#scrollspyHeading4">Contacts et liens</a>
+				</li>
+			</ul>
+		</nav>
+		
+		<!-- Titre page -->
+		<div class="container text-center mb-4 margin-top:80px" id="accueil" >
+			<h1 >Bienvenue sur mon E-Portfolio</h1>
+			<p>Je suis Camille Franceschin, étudiante en Sciences des Données, en d'autres mots : tout ce qui touche aux statistiques, à l'informatique et la data. Cet E-Portfolio est aussi bien un projet d'étude, qu'un élément permettant de mettre en avant mes savoirs et compétences.</p>
+		</div>
+		
+		<!-- Présentation générale -->
+			 <h2 id="scrollspyHeading1">Présentation générale</h2>
+			  <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="container-presentation" tabindex="0">
+				  <div class="photo-moi">
+						<img src="Images/photo.jpg" alt="Photo">
+					</div>
+			  <p class= "texte-presentation">Je m'appelle Camille Franceschin, j'ai actuellemenent 23 ans et je suis étudiante (et alternante !) en deuxième année de BUT Science des Données.
+			  Je suis originaire de la région Ile-de-France et ait toujours suivi mes études à Paris. On peut se demander pourquoi à 23 ans je suis qu'en deuxième année, il s'avère que, suite à une erreur de parcours, j'ai d'abord tenté de faire des études en histoire-géographie. Etude de géographie qui m'ont donné goût aux statistiques et c'est vers celles-ci que j'ai décidé de me tourner lors de ma réorientation</p>
+		</div>	
+		
+		<!-- Parcours scolaire -->
+			<h3 class="sous-titre" id="scrollspyHeading1_1"> Parcours scolaire </h3>
+				<ul class="texte-sco">
+					<li> <a> BUT2 Science des Données, IUT Paris Rives de Seine </a> </li>
+						<ul>
+							<li> <a>Depuis septembre 2023 (diplômée en septembre 2026)</a></li>
+						</ul>
+						<ul>
+							<li><a> Parcours VCOD (Visualisation, Conception d'Outils Décisionnels), Alternance (2e et 3e année) chez INTERSPORT </a> </li>
+						</ul>
+					</li> 
+					<li> <a> Bi-licence Histoire-Géographie, Université Paris Cité </a> </li>
+						<ul>
+							<li><a> Septembre 2020 à Juillet 2023 </a></li>
+						</ul>
+						<ul>
+							<li><a> Première année validée puis redoublement deuxième année et réorientation </a></li>
+						</ul>
+					</li>
+					<li><a> Bac ES, Lycée Nikola Tesla </a></li>
+						<ul>
+							<li><a> Septembre 2017 à Juin 2020 </a></li>
+						</ul>
+						<ul>
+							<li><a> Mention Assez Bien, spécialité mathématiques</a></li>
+						</ul>
+					</li>
+					
+				</ul>
+				
+				<!-- Passions, centres d'intérêt -->
+				<h3 class="sous-titre" id="scrollspyHeading1_2"> Passions, centres d'intérêt </h3>
+					<div id="carouselExample" class="carousel slide">
+						<div class="carousel-inner">
+							<div class="carousel-item active">
+								<img src="Images/Voyage.png" class="d-block w-100" alt="Photos de voyage">
+							</div>
+							<div class="carousel-item">
+								<img src="Images/Paris.png" class="d-block w-100" alt="Photos de Paris">
+							</div>
+							<div class="carousel-item">
+								<img src="Images/livres.png" class="d-block w-100" alt="Photos de livres">
+							</div>
+						</div>
+						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+							<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Previous</span>
+						</button>
+						<button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+							<span class="carousel-control-next-icon" aria-hidden="true"></span>
+							<span class="visually-hidden">Next</span>
+						</button>
+					</div>
+					
+					<div class="carousel-texte" class="ms-3">
+						<p id="texte-voyage">Les voyages : J'aime beaucoup voyager que ce soit avec ma famille ou mes amis, dès que j'ai l'occasion de partir, je me prends mes billets, ma valise et je m'envole à travers l'Europe. Que ce soit la plage ou la ville, j'aime être dépaysé et découvrir de nouveaux endroits.</p>
+					</div>
+					<div class="carousel-texte" class="ms-3">
+						<p id="texte-paris">Paris et son histoire : Malgré le fait que j'aime quitter la région parisienne et être dépaysée, mon endroit favori reste Paris. J'adore m'y balader, faire des musées, voir les monuments, manger... Même si j'ai délaissé mes études d'histoire, je reste tout de même intéressée et ai de l'intérêt pour cette ville remplie d'histoire.</p>
+					</div>
+					<div class="carousel-texte" class="ms-3">
+						<p id="texte-livre"></p> Même si Paris reste ma ville de coeur ce que j'apprécie moins sont les transports...je passe donc mon temps à y lire des livres de tout genre. En passant par des auteurs classiques, puis des auteurs populaires du moment, ou alors des biographies, je me passionne pour la lecture et peux lire plusieurs heures par jour.
+					</div>
+					</div>
+					<div class="clearfix"></div>	
+		
+				<!-- Compétences -->
+			  <h2 id="scrollspyHeading2">Compétences</h2>
+				<ul class="compet-perso-liste">
+					<ul>
+						<li><a> Rigoureuse </a></li>
+					</ul>
+					<ul>
+						<li><a> Ponctuelle </a></li>
+					</ul>
+					<ul>
+						<li><a> Sérieuse </a></li>
+					</ul>
+					<ul>
+						<li><a> Investie et passionnée </a></li>
+					</ul>
+					<ul>
+						<li><a> Adaptable </a></li>
+					</ul>
+				</ul>
+				<div class="compet-perso-texte">
+					<p> Depuis que j'ai l'âge de 16 ans je travaille (vous pouvez retrouver mon CV dans la rubrique Contacts et liens), et ai pu acquérir ses compétences grâce à cela, j'ai su m'adapter à tout ce que l'on me demandait et je l'ai fait de manière sérieuse.
+					Le début de mes études en licence et ma réorientation m'a également appris beaucoup.</p>
+				</div>
+	
+			  <!-- Personnelles -->
+				<h3 class="sous-titre" id="scrollspyHeading2_1"> Personnelles </h3>
+				
+				
+				<!-- Statistiques et informatique -->
+				<h3 class="sous-titre" id="scrollspyHeading2_2"> Statistiques et Informatique </h3>
+					<div><p class= "texte-compet"> Grâce à mes études en Science des Données, j'ai pu acquérir de nombreuses compétences que ce soit en Statistiques ou en Informatique </p></div>
+						<div class="container-stats">
+							<section class='screen'>
+								<div class='rectangles' id="rect-compt">
+									<h2 class="titre-compet">Statistiques</h2>
+								</div>
+								<div>
+									<div class='progressContainer'><p class='competences'>Maîtrise d'outils d'analyse</p></div>
+									<div class='progressContainer'><p class='competences'>Utilisation des méthodes de modélisation</p></div>
+									<div class='progressContainer'><p class='competences'>Interprétation des données</p></div>
+									<div class='progressContainer'><p class='competences'>Mettre en forme des résultats</p></div>
+								</div>
+							</section>
+							<section class='screen'>
+								<div class='rectangles' id="rect-compt">
+									<h2 class="titre-compet">Informatique décisionnelle</h2>
+								</div>
+								<div>
+									<div class='progressContainer'><p class='competences'>Requêtage de base de données</p></div>
+									<div class='progressContainer'><p class='competences'>Stocker les données</p></div>
+									<div class='progressContainer'><p class='competences'>Langage de programmation</p></div>
+									<div class='progressContainer'><p class='competences'>Algorithmes pour faire des prédictions</p></div>
+								</div>
+							</section>
+						</div>
+							<div class="clearfix"></div>
+								<div class="logo-row">
+									<figure>
+										<img src="Images/microsoft.webp" alt="Microsoft">
+										<figcaption>Suite Microsoft</figcaption>
+									</figure>
+									<figure>
+										<img src="Images/sql.png" alt="SQL">
+										<figcaption>SQL</figcaption>
+									</figure>
+									<figure>
+										<img src="Images/r.png" alt="RStudio">
+										<figcaption>R Studio</figcaption>
+									</figure>
+									<figure>
+										<img src="Images/sas.png" alt="SAS">
+										<figcaption>SAS</figcaption>
+									</figure>
+									<figure>
+										<img src="Images/python.png" alt="Python">
+										<figcaption>Python</figcaption>
+									</figure>
+									<figure>
+										<img src="Images/pbi.png" alt="Power BI">
+										<figcaption>Power BI</figcaption>
+									</figure>
+								</div>
+							
+		
+				<!-- Réalisation -->
+				<h2 id="scrollspyHeading3">Réalisations</h2>
+				
+				<!-- Projets universitaires -->
+				<h3 class="sous-titre"> Projets universitaires</h3>		
+					<div class="card-group">
+					<div class="card">
+						<div id="carousel1" class="carousel slide">
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="Images/Enq_qst.png" class="d-block w-100" alt="Image 1">
+								</div>
+								<div class="carousel-item">
+									<img src="Images/Enq_rep.png" class="d-block w-100" alt="Image 2">
+								</div>
+								<div class="carousel-item">
+									<img src="Images/Enq_ppt.png" class="d-block w-100" alt="Image 3">
+								</div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+						<div class="card-body">
+							<h4 class="card-title">Mise en place d'une enquête</h4>
+							<p class="card-text">Ce projet avait pour but d'élaborer de A à Z une enquête à destination des étudiants et personnels de l'IUT. Il portait sur la place de l'IA dans les études supérieures. C'était un travail par groupe de 4
+													Pour ce faire nous avons d'abord créer notre questionnaire sur la plateforme LimeSurvey. Par manque de réponse nous avons dû faire un travail de terrain et aller au près de nos potentiels répondants pour solliciter des réponses.
+													Nous avons ensuite fait un gros travail de nettoyage des données, sur Excel, et nous avons gardé environ 600 réponses et sélectionné certaines questions. Notre problématique était la suivante : "Comment les membres de l’IUT perçoivent l’utilisation de l’IA dans l’enseignement supérieur ?"
+													Nous avons ensuite fait nos différentes analyses et élaboré un reporting sur PowerPoint que nous avons par la suite présenté. </p>
+						</div>
+					</div>
+
+					<div class="card">
+						<div id="carousel2" class="carousel slide" >
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="Images/Datavis_consi.png" class="d-block w-100" alt="Paris 1">
+								</div>
+								<div class="carousel-item">
+									<img src="Images/Datavis_pbi.png" class="d-block w-100" alt="Paris 2">
+								</div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+						<div class="card-body">
+							<h4 class="card-title">Tableau de bord</h4>
+							<p class="card-text">Un concours national entre tous les BUT1 SD de France était organisé dans le but d'un projet noté. Une entreprise, dans notre cas Météo France, nous fournissait des données ainsi qu'une problématique et l'objectif était de créer un tableau de bord sur Power BI pour y répondre. Le projet était à réaliser en groupe.
+							Nous avions une journée entière pour réaliser ce projet. Avec mon groupe nous sommes partis sur la question "Est-ce qu'il pleut tout le temps en Bretagne ?". Le travail de nettoyage sur Excel a été complexe, nous sommes ensuite passés sur Power BI afin de mettre en place notre tableau de bord.
+							A la fin de la journée, nous avons élu le meilleur de la promo afin qu'il aille en finale nationale. C'est mon groupe qui avons gagné au sein de l'IUT mais nous avons malheureusement pas gagné le concours.</p>
+						</div>
+					</div>
+
+					<div class="card">
+						<div id="carousel3" class="carousel slide" >
+							<div class="carousel-inner">
+								<div class="carousel-item active">
+									<img src="Images/Reg_desc.png" class="d-block w-100" alt="Plage 1">
+								</div>
+								<div class="carousel-item">
+									<img src="Images/Reg_courbe.png" class="d-block w-100" alt="Plage 2">
+								</div>
+								<div class="carousel-item">
+									<img src="Images/Reg_courbe2.png" class="d-block w-100" alt="Plage 2">
+								</div>
+								<div class="carousel-item">
+									<img src="Images/Reg_code.png" class="d-block w-100" alt="Plage 2">
+								</div>
+							</div>
+							<button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+								<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Previous</span>
+							</button>
+							<button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+								<span class="carousel-control-next-icon" aria-hidden="true"></span>
+								<span class="visually-hidden">Next</span>
+							</button>
+						</div>
+						<div class="card-body">
+							<h4 class="card-title">Modèle de régression linéaire</h4>
+							<p class="card-text">Ce projet d'analyse avait pour objectif de comparer la taille en fonction de l'âge d'enfants provenant de deux pays différents. Ce travail était a faire par 2 et il nous a été attribué la Polynésie Française et Sainte Lucie.
+							Nous avons eu les données en CSV et avons dû les traiter sur R Studio. Il nous a fallu faire une analyse descriptive des données puis un ajustement polynomial des courbes de croissance. Tout cela dans le but de comparer les filles, les garçons, les classes d'âge et les deux pays.
+							Tout a été réalisé sur R Studio, le rendu était un rapport écrit des résultats qui reprenait notre code avec des explications ainsi que de mutiples graphiques. Il a fallu également faire une conclusion en anglais.</p>
+						</div>
+					</div>
+				</div>	
+						
+					
+				<!-- Alternance -->	
+				<h3 class="sous-titre" id="scrollspyHeading3_2"> Alternance </h3>
+					<div class="alternance-container">
+						<div class="alternance-image">
+							<img src="Images/intersport.png" alt="Intersport Logo">
+						</div>
+						<div class="alternance-text">
+							<p class="texte-alternance"> Je suis en alternance depuis septembre 2024 et jusqu'à septembre 2026 dans l'entreprise Intersport au pôle Data du service Marketing Client. Intersport est une entreprise de distribution d'articles de sport, possédant plus de 900 magasins principalament en France. </p>
+							<p class="texte-alternance">L'équipe de la Data est composée de 6 personnes (dont moi !) et a pour but d'avoir une connaissance des différents profils clients fidélisés ainsi que de suivre et analyser les opérations marketing se déroulant tout au long de l'année. De plus, diverses enquêtes sont également mises en place par notre équipe. Les analyses ciblent exclusivement les clients ayant un compté fidélité.</p>
+							<p class="texte-alternance">J'ai effectué plusieurs missions depuis le début de mon alternance ayant permis de me servir de mes compétences apprises en cours.  </p>
+						</div>
+					</div>
+						<div id="texte-missions">
+							<p> Mes missions sont les suivantes : </p>
+							<ul class= "texte-sco">
+								<li> <a> S'assurer chaque jour que les données de la veille ont bien été chargé sur nos serveurs, et si le cas échéant les récupérer (SAS) </a> </li>
+								<li> <a> Créer des suivis quotidiens pour les opérations marketing puis en faire un bilan sous forme de reporting à la fin de l'opération (SAS, EXCEL, POWERPOINT) </a> </li>
+								<li><a> Faire des analyses sur la base clients (SAS, EXCEL, POWERPOINT)  </a></li>
+								<li><a> Présenter les résultats </a></li>
+								<li><a> Répondre à des demandes spécifiques concernant la base clients </a></li>
+							</ul>
+						</div>	
+						
+				
+				<!-- Contacts et liens -->				
+				<h2 id="scrollspyHeading4">Contacts et liens</h2>
+					<p class="mail"> Vous pouvez me contacter ici : </p>
+						<ul>
+							<li><a href="mailto:camillefr2@gmail.com"> Envoyer un message </a></li>
+						</ul>
+					<p class="CV"> Ou alors télécharger mon CV : </p>
+						<ul>
+							<li><a href="Images/CV.pdf" download class="btn btn-success"><i class="bi bi-file-earmark-pdf"></i> Télécharger CV</a></li>
+						</ul>
+					<p class="Linkedin"> Ou encore me retrouver sur Linkedin : </p>
+						<ul>
+							<li><a href="https://www.linkedin.com/in/camille-franceschin-674059357/"">Linkedin</a></li>
+						</ul>
+	
+
+		
+		
+		
+		
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
